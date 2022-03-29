@@ -44,12 +44,12 @@ pred1 = knn.predict(X_test)
 
 # confusion_matrix
 print()
-print('train data confusion matrix:')
+print('test data confusion matrix:')
 print(confusion_matrix(pred1,Y_test))
 
 # Accuracy Precision Recall F1-score Support
 print()
-print('train data Performance metrics:')
+print('test data Performance metrics:')
 print(classification_report(pred1,Y_test))
 
 # predict with X_train
